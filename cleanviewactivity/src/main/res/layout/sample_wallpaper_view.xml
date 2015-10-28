@@ -1,0 +1,25 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.example.administrator.cleanviewactivity"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <FrameLayout
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@mipmap/wallpaper_switcher_widget_bg" />
+
+
+    <com.example.administrator.cleanviewactivity.WallpaperView
+        android:id="@+id/mWallpaperView"
+        android:layout_width="match_parent" android:layout_height="match_parent" android:padding="10dp"
+        />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@mipmap/wallpaper_switcher_widget_fg" />
+    </FrameLayout>
+</FrameLayout>
